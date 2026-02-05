@@ -12,6 +12,10 @@
 def lambda_normalize(tm0):
     """
     HX: 10 points
+    datatype term =
+      | TMvar of strn
+      | TMlam of (strn, term)
+      | TMapp of (term, term)
     Given a term [tm0], [lambda_normalize] applies the
     leftmost evaluation strategy to normalize it.
     Note that normalization is performed under 'lambda'.
