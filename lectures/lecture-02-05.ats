@@ -38,7 +38,8 @@ case tm0 of
 {
 //
 fun
-f0_app(tm0: term): term =
+f0_app
+(tm0: term): term =
 let
 //
 val-
@@ -55,13 +56,14 @@ term_interp(term_subst0(tmx, x01, tm2))
 end // end-of-[f0_app]
 //
 fun
-f0_if0(tm0: term): term =
+f0_if0
+(tm0: term): term =
 let
 val-
 TMif0
 (tm1, tm2, tm3) = tm0
 val tm1 = term_interp(tm1)
-in
+in//let
 case- tm1 of
 TMbtf(btf) =>
 if btf

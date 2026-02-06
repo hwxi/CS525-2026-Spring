@@ -18,7 +18,8 @@ def lambda_normalize(tm0):
       | TMapp of (term, term)
     Given a term [tm0], [lambda_normalize] applies the
     leftmost evaluation strategy to normalize it.
-    Note that normalization is performed under 'lambda'.
+    Note that normalization needs to be performed under
+    'lambda' as well.
     """
     raise NotImplementedError
 
@@ -40,7 +41,7 @@ def isqrt_in_lambda():
     """
     HX: 20 points
     This one is what we often call "eat-your-own-dog-food"
-    Please implement an integer version of the sqare root
+    Please implement an integer version of the square root
     funtion. For instance,
     isqrt(0) = 0, isqrt(2) = 1, isqrt(10) = 3, ...
     In general, given n >= 0, isqrt(n) returns the largest
