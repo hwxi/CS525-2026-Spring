@@ -20,50 +20,58 @@ for Assignment 6 (that is, the midterm-2 project).
 
 (* ****** ****** *)
 (* ****** ****** *)
-//
-Here are a list of items I expect that you submit into the Final07 folder
-on Gradescope:
 
-------------------------------------------------------------------------------
+Here are a list of items I expect that you submit into the Final07
+folder on Gradescope:
+
+------------------------------------------------------------------------
 
 Item 1:
+
 A compiler (written in Python3) that compiles LAMBDA into JavaScript.
-This compiler should consist of a type-checker (for doing type inference)
-and also a JS code emitter (for generating JS code from source programs in
-LAMBDA).
+This compiler should consist of a type-checker (for doing type
+inference) and also a JS code emitter (for generating JS code from
+source programs in LAMBDA).
 
-If you only want to get a passing grade (that is, B or B+), then you can
-just polish your midterm-2 project without adding new features. If you aim
-for A (or A-), then I expect that the JS code your compiler generates should
-NOT contain any inner functions. In other words, you compiler should implement
-something referred to as closure conversion (which I talked about on Thursday,
-the 17th of April).
+If you only want to get a passing grade (that is, B or B+), then you
+can just polish your midterm-2 project without adding new features. If
+you aim for A (or A-), then I expect that the JS code your compiler
+generates should NOT contain any inner functions. In other words, you
+compiler should implement something referred to as closure conversion
+(which I talked about on Thursday, the 17th of April).
 
-Item 1(a): Please have a TEST directory containing some LAMBDA programs you
-have tested. If there are issues, please be honest and report them in a README
-file in the TEST directory.
+Item 1(a): Please have a TEST directory containing some LAMBDA
+programs you have tested. If there are issues, please be honest and
+report them in a README file in the TEST directory.
 
-------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 Item 2:
-You are required to write a project report detailing what you have done. Here
-are some key points I want to see in your report:
+You are required to write a project report detailing what you have
+done. Here are some key points I want to see in your report:
 
 Item 2a: A brief introduction to Church's lambda-calculus.
-Item 2b: A brief introduction to the LAMDBA programming language. Please follow
-the datatypes [styp] and [dexp]; how each language construct is typed and evaluated.
-Item 2c: How type-checking is implemented in your compiler?
-Item 2d: How JS code emitter is implemented in your compiler?
-Item 2e: How closure conversion is implemented in your compiler (if applicable)?
 
-------------------------------------------------------------------------------
+Item 2b: A brief introduction to the LAMDBA programming language.
+Please follow the datatypes [styp] and [dexp]; how each language
+construct is typed and evaluated.
+
+Item 2c: How type-checking is implemented in your compiler?
+
+Item 2d: How JS code emitter is implemented in your compiler?
+
+Item 2e: How closure conversion is implemented in your compiler
+(if applicable)?
+
+------------------------------------------------------------------------
 
 Item 3:
 
-Please produce a set of slides and then record a presentation based on the slides
-I expect a talk of 20 minutes (and definitely no more then 30 minutes).
+Please produce a set of slides based on your report and then record a
+presentation based on the slides I expect a talk of 20 minutes (and
+definitely no more then 30 minutes).
 
-------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 (* ****** ****** *)
 (* ****** ****** *)
